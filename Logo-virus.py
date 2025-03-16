@@ -17,4 +17,6 @@ a.goto(-200, 150)
 a.pendown()
 
 a.color('cyan')
-a.write
+a.write("Votre texte ici", font=("Arial", 26, "bold"))
+
+turtle.done()
